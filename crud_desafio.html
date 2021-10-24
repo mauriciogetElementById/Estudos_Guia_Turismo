@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRUD DESAFIO</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="conteiner">
+            <header>
+                <h3>Lista de membros</h3>
+            </header>
+            <div class="tabela_cadastro">
+               <table class="tabela_usuarios">
+                   <tr>
+                       <th>Primeiro Nome</th>
+                       <th>Segundo Nome</th>
+                       <th>Telefone</th>
+                       <th>Email</th>
+                       <th>Ações</th>
+                   </tr>
+                   <tr>
+                       <td id="nome">Mauricio</td>
+                       <td>Silva</td>
+                       <td>987637232</td>
+                       <td>mauricio@email.com</td>
+                       <td>
+                           <button class="btn_editar">Editar</button>
+                           <button class="btn_deletar">Deletar</button>
+                       </td>
+                   </tr>
+               </table>
+
+               <button class="btn_adicionar">Incluir</button>
+            </div>
+            <!-- Adicionar Modal-->
+            <div class="adicionar_modal">
+                <div class="modal">
+                    <div class="modal_header"><h3>Adicionar novo usuário</h3></div>
+                    <div class="modal_body">
+                        <form action="" class="form_modal" autocomplete="off">
+                            <input type="text" name="nome" placeholder="Nome">
+                            <input type="text" name="sobrenome" placeholder="Sobrenome">
+                            <input type="tel" name="telefone" placeholder="Telefone">
+                            <input type="email" name="email" placeholder="Email">
+                            <button class="btn_modal">Enviar</button>
+                        </form>
+                         
+                    </div>
+                </div>
+            </div>
+
+            <div id="teste"></div>
+
+            <button class="verde" onclick="verde()">Verde</button>
+            <button class="azul" onclick="azul()">Azul</button>
+            <button class="vermelho" onclick="vermelho()">Vermelho</button>
+        </div>
+        <script src="script.js">
+            /*var n1;
+            var n2;
+
+            var n1 = parseInt(prompt("Digite o primeiro numero"));
+            var n2 = parseInt(prompt("Digite o segundo número"));
+
+            var result = n1 + n2;
+            
+
+            alert(result);
+
+            if (result < 35) {
+                alert("Você e jovem");
+            } 
+            else if (result < 59) {
+                alert("Voce tem meia idade");
+            } 
+            else 
+                alert("Voce é idoso");*/
+
+
+            
+        </script>
+    </body>
+</html>

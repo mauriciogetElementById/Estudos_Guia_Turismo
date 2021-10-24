@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #955df4;
+    --secundary-color: #ff816c;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.conteiner {
+    max-width: 800px;
+    margin: 32px auto;
+    padding-bottom: 16px;
+    -webkit-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75)
+}
+
+header {
+    width: 100%;
+    background: var(--primary-color);
+    padding: 16px;
+}
+
+header h3 {
+    color: #fff;
+    margin-left: 24px;
+}
+
+.tabela_usuarios {
+    width: 90%;
+    margin: 32px auto;
+    border-collapse: collapse;
+}
+
+.tabela_usuarios th, .tabela_usuarios td {
+    text-align: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px; 
+}
+
+.tabela_usuarios th {
+    background: #fafafa;
+    padding: 16px auto;
+}
+
+button {
+    background: transparent;
+    width: 80px;
+    height: 32px;
+    border-radius: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.btn_editar {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn_editar:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn_deletar {
+    color: var(--secundary-color);
+    border: 1px solid var(--secundary-color);
+}
+
+.btn_deletar:hover {
+    background: var(--secundary-color);
+    color: #fff;
+}
+
+.btn_adicionar {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn_adicionar:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.tabela_cadastro {
+    text-align: center;
+}
+
+.btn_adicionar {
+    width: 96px;
+    height: 32px;
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+
+.adicionar_modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #24232354;
+    display: none;
+    
+}
+
+.modal{
+    position: relative;
+    background: #fff;
+    text-align: center;
+    width: 400px;
+    margin: 80px auto;
+    -webkit-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75)
+}
+
+.modal_header {
+    margin-bottom: 4px;
+    background: #f8fafb;
+    padding: 32px 32px 0px 32px;
+}
+
+.modal_body {
+    padding: 32px;
+}
+
+.btn_modal {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    width: 144px;
+}
+
+input {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 16px;
+    text-indent: 8px;
+    outline: none;
+}
+
+#teste {
+    height: 200px;
+    width: 150px;
+    border: 3px solid #000;
+}
+
+.verde{
+    background-color: darkgreen;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.azul{
+    background-color: blue;
+    margin-left: 309px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: red;
+    margin-left: 580px;
+    border-radius: 50%;
+}
