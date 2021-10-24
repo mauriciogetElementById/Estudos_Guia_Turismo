@@ -1,4 +1,4 @@
-var hora = 01;
+var hora = prompt ("Digite o horario");
 
 if (hora > 0 && hora < 6){
     alert("Agora é de madrugada"+" "+hora);
